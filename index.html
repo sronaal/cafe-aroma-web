@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Café Aroma</title>
+</head>
+
+<body>
+
+    <section class="hero-banner">
+        <header>
+            <div class="logo">
+                <h1>Cafe Aroma</h1>
+            </div>
+
+
+            <button type="button" id="btn-menu">
+                <img id="icono" class="icon-menu" src="/img/hamburger.png" width="25" height="25">
+            </button>
+
+
+            <nav>
+                <a href="#">Menú</a>
+                <a href="#">Opiniones</a>
+                <a href="">Ubicaciones</a>
+                <a class="link-btn" href="#">Reservar Mesa</a>
+            </nav>
+
+
+        </header>
+        <div class="hero-content">
+            <h1 class="animate__animated animate__backInDown">Sabores que <br> inspiran tu día</h1>
+            <div class="animate__animated animate__backInUp">
+                <p>Café de especialidad y cocina artesanal en un ambiente
+                    acogedor</p>
+                <a class="link-btn" href="#">Ver Menú</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="menu-section">
+        <h1 class="animate__animated  section-title">Nuestro Menú</h1>
+        <p>Descubre nuestra selección de platos artesanales y bebidas de especialidad, <br>
+            preparados con ingredientes frescos y locales.</p>
+        <div class="filter-menu">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="desayuno">Desayuno</button>
+            <button class="filter-btn" data-filter="almuerzo">Almuerzo</button>
+            <button class="filter-btn" data-filter="cena">Cena</button>
+        </div>
+
+        <div class="items">
+            <div class="card item desayuno">
+                <img src="/img//avocado-toast-artisanal-breakfast.jpg" alt="Tostada de aguacate">
+                <section>
+                    <h3>Avocado Toast Artesanal</h3>
+                    <h4>$ 12.00</h4>
+                </section>
+                <p>Pan de masa madre, aguacate fresco, tomate cherry, queso feta y aceite de oliva extra virgen</p>
+            </div>
+            <div class="card item desayuno">
+                <img src="/img/blueberry-pancakes-with-maple-syrup.jpg" alt="Panqueques de arándanos">
+                <section>
+                    <h3>Pancakes de Arándanos</h3>
+                    <h4>$ 10.00</h4>
+                </section>
+                <p>Esponjosos pancakes con arándanos frescos, miel de maple y mantequilla artesanal</p>
+            </div>
+            <div class="card item desayuno">
+                <img src="/img/eggs-benedict-breakfast-dish.jpg" alt="Huevos benedictinos">
+                <section>
+                    <h3>Huevos Benedictinos</h3>
+                    <h4>$ 14.00</h4>
+                </section>
+                <p>Muffin inglés, jamón serrano, huevos pochados y salsa holandesa casera</p>
+            </div>
+            <div class="card item almuerzo">
+                <img src="img/gourmet-caesar-salad.png" alt="Ensalada César">
+                <section>
+                    <h3>Ensalada César Gourmet</h3>
+                    <h4>$ 11.00</h4>
+                </section>
+                <p>Lechuga romana, pollo a la parrilla, crutones caseros, parmesano y aderezo césar</p>
+            </div>
+            <div class="card item almuerzo">
+                <img src="/img/smoked-salmon-sandwich-brioche.jpg" alt="Sandwich de salmón ahumado">
+                <section>
+                    <h3>Sandwich de Salmón</h3>
+                    <h4>$ 15.00</h4>
+                </section>
+                <p>Pan brioche, salmón ahumado, queso crema, alcaparras y eneldo fresco</p>
+            </div>
+            <div class="card item almuerzo">
+                <img src="img/pasta-carbonara-with-pancetta.jpg" alt="Pasta Carbonara">
+                <section>
+                    <h3>Pasta Carbonara</h3>
+                    <h4>$ 16.00</h4>
+                </section>
+                <p>Fettuccine fresco, panceta artesanal, huevo, parmesano y pimienta negra</p>
+            </div>
+
+            <div class="card item cena">
+                <img src="/img/premium-beef-steak-with-truffle-mashed-potatoes.jpg" alt="Filete de res">
+                <section>
+                    <h3>Filete de Res Premium</h3>
+                    <h4>$ 25.00</h4>
+                </section>
+                <p>Corte premium 250g, puré de papas trufado, espárragos y salsa de vino tinto</p>
+            </div>
+            <div class="card item cena">
+                <img src="/img/grilled-salmon-with-quinoa-vegetables.jpg" alt="Salmón a la parrilla">
+                <section>
+                    <h3>Salmón a la Plancha</h3>
+                    <h4>$ 22.00</h4>
+                </section>
+                <p>Filete de salmón, quinoa con vegetales, salsa de limón y hierbas frescas</p>
+            </div>
+            <div class="card item cena">
+                <img src="/img/mushroom-risotto-with-truffle-oil.jpg" alt="Hongos risotto">
+                <section>
+                    <h3>Risotto de Hongos</h3>
+                    <h4>$ 18.00</h4>
+                </section>
+                <p>Arroz arborio, mezcla de hongos silvestres, parmesano y aceite de trufa</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="comentarios-clientes">
+        <h1>Lo que dicen nuestros clientes</h1>
+        <p>La experiencia de nuestros visitantes es lo que más nos importa. <br>
+            Descubre por qué nos eligen una y otra vez.</p>
+
+
+
+        <section class="reviews-slider">
+            <div class="slider">
+                <div class="slide active">
+
+                    <img src="/img/smiling-man-portrait.png" alt="Cliente satisfecho">
+
+                    <p>"El mejor brunch de la ciudad. Los pancakes de arándanos son espectaculares <br>
+                        y el servicio es impecable. Muy recomendado.</p>
+                    <h4>- Carlos Rodríguez.</h4>
+                </div>
+                <div class="slide">
+                    <img src="/img/young-woman-happy-portrait.jpg" alt="">
+                    <p>"Lugar acogedor con una decoración preciosa. La pasta carbonara estaba deliciosa <br>
+                        y el personal muy atento. Una joya escondida."</p>
+                    <h4>- Ana Lopez</h4>
+                </div>
+                <div class="slide">
+                    <img src="/img/smiling-woman-portrait.png" alt="">
+                    <p>"Mi lugar favorito para el café de la mañana. Los baristas son <br>
+                        verdaderos artistas y siempre me sorprenden con el latte art."</p>
+                    <h4>- Sofia Herrera</h4>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="prev">⟨</button>
+                <button class="next">⟩</button>
+            </div>
+
+
+        </section>
+    </section>
+
+
+    <section class="info-tienda">
+        <div class="info">
+            <h1>Visítanos</h1>
+            <p>Te esperamos en nuestro acogedor espacio, diseñado para que disfrutes <br>
+                de momentos únicos con el mejor café y comida artesanal.</p>
+
+            <ul>
+                <li>
+                    <img src="./img/location.png" width="25" height="25" alt="Icono ubicación">
+                    <p>Calle Principal 123, Centro Histórico</p>
+                </li>
+                <li>
+                    <img src="/img/phone.png" width="25" height="25" alt="Icono teléfono">
+                    <p>+1 234 567 890</p>
+                </li>
+                <li>
+                    <img src="/img/clock-5.png" width="25" height="25" alt="Icono horario">
+                    <p>Lun-Dom: 8:00 AM - 8:00 PM</p>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799148136!2d-74.2598736877155!3d40.69767006394744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1696111234567!5m2!1ses-419!2sco"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-title">
+            <h2>Café Aroma</h2>
+            <p>Donde cada taza cuenta una historia <br> y cada plato es una experiencia única.</p>
+        </div>
+        <div class="horarios">
+            <h3>Horarios</h3>
+            <p>Lunes - Viernes: 7:00 AM - 10:00 PM <br></p>
+            <p>Sábados: 8:00 AM - 11:00 PM <br></p>
+            <p>Domingos: 8:00 AM - 8:00 PM</p>
+        </div>
+        <div class="redes">
+            <h3>Redes sociales</h3>
+        </div>
+    </section>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
