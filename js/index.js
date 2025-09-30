@@ -66,6 +66,9 @@ function showSlide(index) {
   });
 }
 
+console.log("Hola Mundo")
+
+
 nextBtn.addEventListener("click", () => {
   current = (current + 1) % slides.length;
   showSlide(current);
